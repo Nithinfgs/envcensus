@@ -1,0 +1,4 @@
+{
+  "ignore_vars": ["HOME", "PATH", "PWD", "USER", "CI", "GITHUB_*", "RUNNER_*"],
+  "exclude_dirs": ["node_modules", ".git", "vendor", "dist", "build", ".venv"]
+}

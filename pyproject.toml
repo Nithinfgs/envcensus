@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envcensus"
+version = "0.1.0"
+description = "Find environment variables your code reads that nothing documents, and documented ones nothing reads. Offline, zero dependencies."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+envcensus = "envcensus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
